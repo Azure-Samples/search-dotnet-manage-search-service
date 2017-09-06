@@ -1,57 +1,40 @@
-# Project Name
+---
+services: Search
+platforms: .Net
+author: milismsft
+---
 
-(short, 1-3 sentenced, description of the project)
+# Getting Started with Search - Manage Search - in .Net #
 
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+          Azure Search sample for managing search service.
+           - Create a Search service resource with a free SKU
+           - Create a Search service resource with a standard SKU, one replica and one partition
+           - Create a new query key and delete a query key
+           - Update the Search service with three replicas and three partitions
+           - Regenerate the primary and secondary admin keys
+           - Delete the Search service
 
 
-## Demo
+## Running this Sample ##
 
-A demo app is included to show how to use the project.
+To run this sample:
 
-To run the demo, follow these steps:
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
 
-(Add steps to start up the demo)
+    git clone https://github.com/Azure-Samples/search-dotnet-manage-search-service.git
 
-1.
-2.
-3.
+    cd search-dotnet-manage-search-service
 
-## Resources
+    dotnet restore
 
-(Any additional resources or related projects)
+    dotnet run
 
-- Link to supporting information
-- Link to similar sample
-- ...
+## More information ##
+
+[Azure Management Libraries for C#](https://github.com/Azure/azure-sdk-for-net/tree/Fluent)
+[Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
+If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
+
+---
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

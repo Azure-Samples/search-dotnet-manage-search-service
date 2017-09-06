@@ -1,0 +1,2 @@
+C:\Sources\dotnet-samples\search-dotnet-manage-search-service\bin\Debug\netstandard1.6\ManageSearch.deps.json
+C:\Sources\dotnet-samples\search-dotnet-manage-search-service\obj\Debug\netstandard1.6\ManageSearch.csproj.CoreCompileInputs.cache
