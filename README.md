@@ -1,10 +1,10 @@
 ---
 services: Search
-platforms: .Net
+platforms: dotnet
 author: milismsft
 ---
 
-# Getting Started with Search - Manage Search - in .Net #
+# Getting started on managing Azure search service using C# #
 
           Azure Search sample for managing search service.
            - Create a Search service resource with a free SKU
@@ -19,7 +19,7 @@ author: milismsft
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/search-dotnet-manage-search-service.git
 
