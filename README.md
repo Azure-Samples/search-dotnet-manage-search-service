@@ -4,20 +4,20 @@ languages:
 - csharp
 products:
 - azure
-services: Search
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Search
+- platforms: dotnet
 ---
 
 # Getting started on managing Azure search service using C# #
 
-          Azure Search sample for managing search service.
-           - Create a Search service resource with a free SKU
-           - Create a Search service resource with a standard SKU, one replica and one partition
-           - Create a new query key and delete a query key
-           - Update the Search service with three replicas and three partitions
-           - Regenerate the primary and secondary admin keys
-           - Delete the Search service
+ Azure Search sample for managing search service.
+  - Create a Search service resource with a free SKU
+  - Create a Search service resource with a standard SKU, one replica and one partition
+  - Create a new query key and delete a query key
+  - Update the Search service with three replicas and three partitions
+  - Regenerate the primary and secondary admin keys
+  - Delete the Search service
 
 
 ## Running this Sample ##
