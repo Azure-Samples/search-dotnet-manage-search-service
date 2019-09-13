@@ -2,11 +2,13 @@
 page_type: sample
 languages:
 - csharp
+- javascript
+- powershell
+- html
 products:
 - azure
-extensions:
-- services: Search
-- platforms: dotnet
+description: "Getting started on managing Azure search service using C#"
+urlFragment: search-dotnet-manage-search-service
 ---
 
 # Getting started on managing Azure search service using C# #
