@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Search
-- platforms: dotnet
+  services: Search
+  platforms: dotnet
 ---
 
 # Getting started on managing Azure search service using C# #
